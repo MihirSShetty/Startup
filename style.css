@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url(header.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #e2dbdb;
+}
+
+button {
+  padding: 8px 15px;
+  color: whitesmoke;
+  border: 5px solid transparent;
+  border-radius: 300px;
+  background-color: #F05F44;
+}
+
+button:hover {
+  border-width: 7px;
+  background-color: #ee4b08;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: 0.1rem solid #ee4b08;
+  width: 40%;
+  opacity: 1;
+}
