@@ -1,2 +1,2 @@
 # Startup
-https://mudge13.github.io/Startup/
+https://mihirsshetty.github.io/Startup/
